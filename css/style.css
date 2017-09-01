@@ -1,3 +1,7 @@
+html,body {
+  background-color: #eaf8fb;
+}
+
 
 .container {
   width: 890px;
@@ -44,18 +48,19 @@
   top: 60px;
   z-index: 1;
   margin-left: 0;
-  /* height: 600px; */
-  /* width: 600px; */
-  /* background-color: #ddd; */
+   /*height: 600px;*/
+   width: 600px;
+   /*background-color: #ddd;*/
 }
 
 #vis .title {
-  font-size:120px;
+  font-size:72px;
+  font-weight: 600;
   text-anchor: middle;
 }
 
 #vis .sub-title {
-  font-size:80px;
+  font-size:36px;
   text-anchor: middle;
 }
 
@@ -76,5 +81,6 @@
   stroke-width: 4px;
 
 }
+
 
 

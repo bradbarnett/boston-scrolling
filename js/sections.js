@@ -794,3 +794,21 @@ function display(data) {
 
 // load data and display
 d3.tsv('data/words.tsv', display);
+
+
+
+//  display(data)
+//    loads data, executes scrollVis with loaded data
+//    sets up functionality for scrolling action
+
+
+// scrollVis
+//  sets up margins, widths, scales, svg, g, and other visualization-level variables
+//  sets up "chart"
+//    sets values for svg, g
+//    preprocesses any data needs for specific charts
+//    triggers setupVis
+//      create all the chart elements
+//    triggers setupSections
+//      sets up activateFunctions array
+//      creates transitions from one vis to the other
